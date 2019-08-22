@@ -1,0 +1,34 @@
+{
+  "name": "multi-loading-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --host 127.0.0.1 --port 3000",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biktor12487/multi-loading-files.git"
+  },
+  "author": "Viktor Panasyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Biktor12487/multi-loading-files/issues"
+  },
+  "homepage": "https://github.com/Biktor12487/multi-loading-files#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
